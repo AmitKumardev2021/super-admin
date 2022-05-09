@@ -11,7 +11,7 @@ export default defineConfig({
     outDir: 'build',
   },
   plugins: [
-    envCompatible(/* options */),
+    envCompatible(),
     reactRefresh(),
     svgrPlugin({
       svgrOptions: {
