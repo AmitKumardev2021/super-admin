@@ -10,6 +10,7 @@ const Modals = lazy(() => import('../pages/Modals'))
 const Tables = lazy(() => import('../pages/Tables'))
 const Page404 = lazy(() => import('../pages/404'))
 const Blank = lazy(() => import('../pages/Blank'))
+const Heritage = lazy(()=> import('../pages/Heritage'))
 
 /**
  * ⚠ These are internal routes!
@@ -58,6 +59,10 @@ const routes = [
     path: '/blank',
     component: Blank,
   },
+  {
+    path: '/heritage',
+    component: Heritage,
+  }
 ]
 
 export default routes

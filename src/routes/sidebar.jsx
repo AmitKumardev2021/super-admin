@@ -47,7 +47,7 @@ const routes = [
     routes: [
       // submenu
       {
-        path: '/Heritage',
+        path: '/app/heritage',
         name: 'Add Heritage',
       },
       // {
