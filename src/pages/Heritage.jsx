@@ -8,7 +8,7 @@ export default (props) => {
   return (
     <>
       <PageTitle>Add Heritage</PageTitle>
-      <div className="mt-5 w-full mx-auto">
+      <div className="mt-5 w-full min-w-64 mx-auto">
         <CKEditor
           editor={ClassicEditor}
           data="<p>Hello from CKEditor 5!</p>"
