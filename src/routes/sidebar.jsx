@@ -43,29 +43,29 @@ const routes = [
   },
   {
     icon: 'PagesIcon',
-    name: 'Pages',
+    name: 'Heritage',
     routes: [
       // submenu
       {
-        path: '/login',
-        name: 'Login',
+        path: '/Heritage',
+        name: 'Add Heritage',
       },
-      {
-        path: '/create-account',
-        name: 'Create account',
-      },
-      {
-        path: '/forgot-password',
-        name: 'Forgot password',
-      },
-      {
-        path: '/app/404',
-        name: '404',
-      },
-      {
-        path: '/app/blank',
-        name: 'Blank',
-      },
+      // {
+      //   path: '/create-account',
+      //   name: 'Create account',
+      // },
+      // {
+      //   path: '/forgot-password',
+      //   name: 'Forgot password',
+      // },
+      // {
+      //   path: '/app/404',
+      //   name: '404',
+      // },
+      // {
+      //   path: '/app/blank',
+      //   name: 'Blank',
+      // },
     ],
   },
 ]
