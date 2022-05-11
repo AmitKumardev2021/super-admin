@@ -48,7 +48,19 @@ const routes = [
       // submenu
       {
         path: '/app/heritage',
-        name: 'Add Heritage',
+        name: 'Heritage Add',
+      },
+      {
+        path: '/app/heritage-update',
+        name: ' Heritage Update',
+      },
+      {
+        path: '/app/blogs',
+        name: ' Blogs',
+      },
+      {
+        path: '/app/blogs-update',
+        name: ' Blogs Update',
       },
       // {
       //   path: '/create-account',

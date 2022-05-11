@@ -7,7 +7,7 @@ import PageTitle from "../components/Typography/PageTitle";
 export default (props) => {
   return (
     <>
-      <PageTitle>Heritage Add</PageTitle>
+      <PageTitle>Blogs</PageTitle>
       <div className="mt-5 w-full min-w-64 mx-auto">
         <CKEditor
           editor={ClassicEditor}

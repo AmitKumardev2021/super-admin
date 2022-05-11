@@ -11,6 +11,9 @@ const Tables = lazy(() => import('../pages/Tables'))
 const Page404 = lazy(() => import('../pages/404'))
 const Blank = lazy(() => import('../pages/Blank'))
 const Heritage = lazy(()=> import('../pages/Heritage'))
+const HeritageUpdate = lazy(()=>import('../pages/HeritageUpdate'))
+const Blogs = lazy(()=>import('../pages/Blogs'));
+const BlogsUpdate = lazy(()=>import('../pages/BlogsUpdate'))
 
 /**
  * ⚠ These are internal routes!
@@ -62,7 +65,19 @@ const routes = [
   {
     path: '/heritage',
     component: Heritage,
-  }
+  },
+  {
+    path: '/heritage-update',
+    component: HeritageUpdate,
+  },
+  {
+    path: '/blogs',
+    component:Blogs,
+  },
+  {
+    path: '/blogs-update',
+    component: BlogsUpdate,
+  },
 ]
 
 export default routes
