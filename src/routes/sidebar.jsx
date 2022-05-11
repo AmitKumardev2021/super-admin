@@ -42,6 +42,20 @@ const routes = [
     name: 'Tables',
   },
   {
+    icon:"MenuIcon",
+    name:"Partners",
+    routes:[
+      {
+        path: '/app/partners',
+        name: ' Partners',
+      },
+      {
+        path: '/app/partner-verification',
+        name: ' Partner Verification',
+      },
+    ]
+  },
+  {
     icon: 'PagesIcon',
     name: 'Heritage',
     routes: [
@@ -54,14 +68,7 @@ const routes = [
         path: '/app/heritage-update',
         name: ' Heritage Update',
       },
-      {
-        path: '/app/blogs',
-        name: ' Blogs',
-      },
-      {
-        path: '/app/blogs-update',
-        name: ' Blogs Update',
-      },
+      
       // {
       //   path: '/create-account',
       //   name: 'Create account',
@@ -79,7 +86,22 @@ const routes = [
       //   name: 'Blank',
       // },
     ],
+
   },
+  {
+    icon:"MenuIcon",
+    name:"Blogs",
+    routes:[
+      {
+        path: '/app/blogs',
+        name: ' Blogs',
+      },
+      {
+        path: '/app/blogs-update',
+        name: ' Blogs Update',
+      },
+    ]
+  }
 ]
 
 export default routes

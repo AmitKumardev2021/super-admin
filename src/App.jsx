@@ -12,6 +12,8 @@ const Login = lazy(() => import("./pages/Login"));
 const Heritage = lazy(() => import("./pages/Heritage"));
 const CreateAccount = lazy(() => import("./pages/CreateAccount"));
 const ForgotPassword = lazy(() => import("./pages/ForgotPassword"));
+const Blogs = lazy(() => import("./pages/Blogs"));
+
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           {/* <Route path="/create-account" component={CreateAccount} /> */}
           {/* <Route path="/forgot-password" component={ForgotPassword} /> */}
           <Route path="/heritage" component={Heritage} />
+          <Route path="/blogs" component={Blogs} />
+
           {/* Place new routes over this */}
           <Route path="/app" component={Layout} />
           {/* If you have an index page, you can remothis Redirect */}

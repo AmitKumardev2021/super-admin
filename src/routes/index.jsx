@@ -14,6 +14,8 @@ const Heritage = lazy(()=> import('../pages/Heritage'))
 const HeritageUpdate = lazy(()=>import('../pages/HeritageUpdate'))
 const Blogs = lazy(()=>import('../pages/Blogs'));
 const BlogsUpdate = lazy(()=>import('../pages/BlogsUpdate'))
+const Partners = lazy(()=>import('../pages/Partners'))
+const PartnerVerification = lazy(()=>import('../pages/PartnerVerification'))
 
 /**
  * ⚠ These are internal routes!
@@ -77,6 +79,14 @@ const routes = [
   {
     path: '/blogs-update',
     component: BlogsUpdate,
+  },
+  {
+    path: '/partners',
+    component: Partners,
+  },
+  {
+    path: '/partner-verification',
+    component: PartnerVerification,
   },
 ]
 
