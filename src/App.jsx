@@ -6,6 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import AccessibleNavigationAnnouncer from "./components/AccessibleNavigationAnnouncer";
+import Partners from "./pages/Partners";
 
 const Layout = lazy(() => import("./containers/Layout"));
 const Login = lazy(() => import("./pages/Login"));
@@ -26,6 +27,7 @@ function App() {
           {/* <Route path="/forgot-password" component={ForgotPassword} /> */}
           <Route path="/heritage" component={Heritage} />
           <Route path="/blogs" component={Blogs} />
+          <Route path="/partners" component={Partners} />
 
           {/* Place new routes over this */}
           <Route path="/app" component={Layout} />
