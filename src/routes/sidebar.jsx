@@ -47,7 +47,7 @@ const routes = [
     routes:[
       {
         path: '/app/partners',
-        name: ' Partners',
+        name: ' Partners profile',
       },
       {
         path: '/app/partner-verification',
